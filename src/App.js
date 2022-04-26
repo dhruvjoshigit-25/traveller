@@ -6,7 +6,7 @@ import { getPlaceData } from './api'
 import Header from './components/Header/Header';
 import List from './components/List/List';
 import Map from './components/Map/Map';
-import PlaceDetails from './components/PlaceDetails/PlaceDetails';
+
 const App = () => {
     const [places, setPlaces] = useState([]);
     const [coordinates,setCoordinates] = useState({});
